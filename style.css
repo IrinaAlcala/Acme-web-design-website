@@ -64,16 +64,16 @@ header #branding h1{
  }
 
  #showcase {
-      min-height: 400px; 
+       min-height: 500px;   
      
-      background: url('./images/showcase.jpeg') no-repeat 0 -400;
+      background: url(./images/showcase.jpeg);
       background-repeat: no-repeat;
-      /* background-size: auto; */
+       /* background-size: auto;  */
      /* background-color: lightgreen; */
      text-align: center;
      color: #ffffff;
-      background: cover;
-      he 
+      /* background: cover; */
+      background-size: 100% 100%;
  }
 
  #showcase h1 {
@@ -84,4 +84,31 @@ header #branding h1{
 
 #showcase p {
     font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+
+
+}
+
+#newsletter h1 {
+    float: left;
+
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+    
+}
+
+#newsletter input[type="email"] {
+     padding: 6px; 
+    height: 25px;
+    width: 250px;
+
+
 }
